@@ -47,7 +47,6 @@ def get_script_options():
 
 
 def map_over_options(arguments):
-    # we only need a URL from the args, keeping this
     value = ""
     for current_arg, current_val in arguments:
         if current_arg in ("-h", "--help"):
@@ -55,7 +54,7 @@ def map_over_options(arguments):
             print("-h (--help): prints this message")
             print("-u (--url): passes a URL to the script for the web driver (this should be a github PR diff page)")
             print("Usage:")
-            print("python main.py --url \"someUrlGoesHere\"")
+            print("main.py --url \"someUrlGoesHere\"")
             sys.exit(2)
         elif current_arg in ("-u", "--url"):
             print("Passed URL is: ", current_val)
