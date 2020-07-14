@@ -128,3 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea
+.vscode
+
+# specific venv i made for this particular script (just trying stuff out)
+.git_automation
