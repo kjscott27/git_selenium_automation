@@ -132,3 +132,4 @@ dmypy.json
 
 # specific venv i made for this particular script (just trying stuff out)
 .git_automation
+git_automation/
